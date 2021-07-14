@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -55,10 +56,13 @@ ul li:hover {
           transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
+  width: 80%;
+  text-align: center;
 }
 
 .title h1 {
-  font-size: 30px;
+  font-size: 50px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .buttons {
