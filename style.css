@@ -3,13 +3,11 @@
 * {
   margin: 0;
   padding: 0;
-  color: white;
 }
 
-body {
-  background-color: black;
-}
-
+/*body{
+    background-color: black;
+}*/
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -44,6 +42,7 @@ ul li:hover {
 
 .logo {
   float: left;
+  color: white;
 }
 
 .logo img {
@@ -79,6 +78,7 @@ ul li:hover {
 .title h1 {
   font-size: 50px;
   font-family: 'Quicksand', sans-serif;
+  color: white;
 }
 
 .buttons {
@@ -106,5 +106,30 @@ button:hover {
   color: white;
   -webkit-transition: 0.6s ease;
   transition: 0.6s ease;
+}
+
+header {
+  background-color: black;
+}
+
+main {
+  background-color: black;
+  height: 94vh;
+}
+
+#section1 {
+  background-color: white;
+  height: 100vh;
+}
+
+#section1 .info1 {
+  color: black;
+  position: relative;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 30%;
+  left: 30%;
+  width: 30%;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
