@@ -71,7 +71,7 @@ ul li:hover {
           transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-  width: 80%;
+  width: 50%;
   text-align: center;
 }
 
@@ -120,16 +120,5 @@ main {
 #section1 {
   background-color: white;
   height: 100vh;
-}
-
-#section1 .info1 {
-  color: black;
-  position: relative;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  top: 30%;
-  left: 30%;
-  width: 30%;
-  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
