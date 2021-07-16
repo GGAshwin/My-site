@@ -5,6 +5,9 @@
     padding: 0;
     
 }
+html{
+    scroll-behavior: smooth;
+}
 /*body{
     background-color: black;
 }*/
@@ -46,6 +49,11 @@ ul li:hover{
         font-family: 'Poppins', sans-serif;
         letter-spacing: 0.5em;
         width: 100%;
+        color: white;
+        text-decoration: none;
+    }
+    a{
+        text-decoration: none;
     }
 }
 .logo h2:hover{
