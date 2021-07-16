@@ -71,7 +71,7 @@ ul li:hover {
           transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-  width: 50%;
+  width: 80%;
   text-align: center;
 }
 
@@ -114,11 +114,140 @@ header {
 
 main {
   background-color: black;
-  height: 94vh;
+  height: 94.5vh;
 }
 
+/*
+//section-1
+*/
 #section1 {
   background-color: white;
   height: 100vh;
+}
+
+#section1 #image {
+  width: 100%;
+  height: 60vh;
+  text-align: center;
+  position: relative;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  top: 40%;
+}
+
+#section1 #image img {
+  height: auto;
+  width: 50%;
+}
+
+#section1 #info1 {
+  height: 40%;
+  width: 80%;
+  position: relative;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  top: 40%;
+  text-align: center;
+}
+
+#section1 #info1 p {
+  font-size: 20px;
+}
+
+/*
+//contact section
+*/
+#contact {
+  height: 100vh;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact #icons {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact #icons img {
+  height: 100px;
+  width: 100px;
+}
+
+/*
+my attempt at responsiveness
+*/
+@media only screen and (max-width: 600px) {
+  #section1 #image {
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    position: relative;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    left: 50%;
+    top: 10%;
+  }
+  #section1 #image img {
+    height: auto;
+    width: 80%;
+  }
+  #section1 #info1 {
+    height: 40%;
+    width: 80%;
+    position: relative;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    left: 50%;
+    top: 60%;
+    text-align: center;
+  }
+  #section1 #info1 p {
+    font-size: 15px;
+  }
+  #contact {
+    height: 100vh;
+    background-color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #contact #icons {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #contact #icons img {
+    height: 50px;
+    width: 50px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
