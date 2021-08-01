@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -91,6 +92,9 @@ ul li:hover {
   color: white;
 }
 
+/*
+Buttons
+*/
 .buttons {
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
@@ -109,6 +113,8 @@ ul li:hover {
   background-color: white;
   border-radius: 5px;
   height: 35px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 
 button:hover {
@@ -122,9 +128,16 @@ header {
   background-color: black;
 }
 
+header {
+  z-index: 12;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 main {
   background-color: black;
-  height: 94.5vh;
+  height: 100vh;
 }
 
 /*
@@ -164,6 +177,7 @@ main {
 
 #section1 #info1 p {
   font-size: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*
